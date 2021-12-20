@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-image: url('components/bg-intern.jpg') ;
+
+}
+#header{
+  /* border: 2px solid black; */
+  background-color: white;
+  height: 7.7vh;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 23px grey;
+}
+.adjust{
+  text-align: center;
+  margin-top: 12px;
+}
+.adjust:hover{
+  color: #5bc2a8;
+  border-bottom: 3px solid #5bc2a8;
+  cursor: pointer;
+}

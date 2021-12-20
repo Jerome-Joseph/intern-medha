@@ -1,10 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
   return (
-    <div className="App">
-      Hemlo world
-    </div>
+    <>
+      <Header/>
+      <ProfileCard/>
+    </>
   );
 }
 
