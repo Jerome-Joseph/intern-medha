@@ -1,5 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 
  const ProfileCard = (props) => { 
 
@@ -18,6 +19,7 @@ import { useEffect, useState } from 'react';
          console.log(data[0].jobseeker_name)
          console.log(articles)
     }
+    
 
     useEffect(() => {
         fetchData();
